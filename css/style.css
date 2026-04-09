@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #4f46e5, #9333ea);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 360px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 85%;
+    max-width: 280px;
+    height: auto;
+}
+
+.card {
+    background: #f9fafb;
+    padding: 45px 25px;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+}
+
+.card h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.card input,
+.card select {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 18px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.card button {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(135deg, #6366f1, #7c3aed);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.links {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links a {
+    font-size: 13px;
+    color: #4f46e5;
+    text-decoration: none;
+}
+
+.message {
+    margin-top: 15px;
+    color: #16a34a;
+    font-size: 13px;
+    text-align: center;
+}
